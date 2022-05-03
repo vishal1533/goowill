@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@500&family=Source+Sans+Pro:wght@600&family=Tapestry&display=swap');
+
+body{
+  margin: 0;
+  background:#000 url(https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow: hidden;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+  height: 100vh;
+  color:#FEFBE7;
+  margin-left: 30px;
+}
+
+h1{
+  font-size: 3.5rem;
+  margin: 0;
+}
+h4{
+  font-size: 2.5rem;
+}
+#array{
+  border-right: 2px solid #FEFBE7;
+  /* margin-left: 10px; */
+}
+
+@media(max-width:1200px)
+{
+  h1{
+    font-size: 3rem;
+  }
+  h4{
+    font-size: 1.5rem;
+  }
+}
+@media(max-width:900px)
+{
+  h1{
+    font-size: 2.5rem;
+  }
+  h4{
+    font-size: 1rem;
+  }
+}
